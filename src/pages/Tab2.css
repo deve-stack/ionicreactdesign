@@ -1,0 +1,20 @@
+ion-header ion-searchbar {
+    margin: 25px auto 0;
+}
+
+.search-poster ion-col {
+    padding: 10px;
+}
+
+.search-poster ion-label {
+    color: #fff;
+    font-size: 16px;
+}
+
+.search-poster ion-img {
+    margin-bottom: 8px;
+}
+
+.search-poster {
+    padding: 15px 5px;
+}

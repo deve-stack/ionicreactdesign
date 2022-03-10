@@ -1,0 +1,104 @@
+ion-header.home {
+    display: none;
+}
+
+ion-content {
+    --background: var(--ion-color-secondary);
+}
+
+ion-content {
+    --padding-start: 7px;
+    --padding-end: 7px;
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700!important;
+    color: #fff;
+    padding: 0 20px;
+    margin-top: 50px!important;
+}
+
+ion-searchbar {
+    --background: var(--ion-color-primary)!important;
+    --border-radius: 25px!important;
+    border-radius: 25px!important;
+    --color: #fff!important;
+    background: var(--ion-color-primary)!important;
+    --box-shadow: none!important;
+    padding-top: 4px!important;
+    padding-bottom: 4px!important;
+    width: calc(100% - 44px)!important;
+    margin: 0 auto 12px;    
+    max-height: 50px
+}
+
+
+ul.song-alide {
+    list-style: none;
+    padding: 0 0 0 20px;
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    float: left;
+    overflow-x: auto;    
+}
+
+ul.song-alide::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+ul.song-alide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+ul.song-alide li {
+    min-width: 190px;
+    width: 100%;
+    max-width: 190px;
+    margin-right: 20px;
+}
+
+ul.song-alide li img {
+    border-radius: 10px;
+}
+
+ul.song-alide li ion-img {
+    border-radius: 10px!important;
+    overflow: hidden;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px 9px rgb(32 56 94 / 30%);
+}
+
+ul.song-alide ion-label {
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 21px;
+}
+
+ul.song-alide ion-label span {
+    display: block;
+    font-size: 10px;
+    font-weight: 300;
+    color: #7a7f99;
+}
+
+h2.feature-heading {
+    font-size: 16px;
+    color: #fff;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 0;
+    padding: 0 20px;
+}
+
+h2.feature-heading span {
+    font-size: 14px;
+    color: #7a7f99;
+}

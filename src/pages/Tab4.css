@@ -1,8 +1,8 @@
-ion-item.music-list {
+ion-item.fav-music-list {
     --min-height: 90px;
 }
 
-ion-list.music-list ion-item {
+ion-list.fav-music-list ion-item {
     --min-height: 90px;
     --background: var(--ion-color-primary);
     --border-radius: 10px;
@@ -13,7 +13,7 @@ ion-list.music-list ion-item {
     margin-bottom: 10px;
 }
 
-ion-list.music-list {
+ion-list.fav-music-list {
     background: transparent;
     padding: 0 15px;
 }
@@ -28,32 +28,45 @@ ion-label.play-icon {
     width: 100%;
 }
 
-ion-label.play-icon ion-img {
+.fav-music-list ion-label.play-icon ion-img {
     position: absolute;
-    bottom: 10px;
+    bottom: calc(50% - 15px);
     max-width: 30px;
 }
 
-ion-list.music-list span {
+ion-list.fav-music-list span {
     display: block;
     font-size: 10px;
     color: #6e729a;
 }
 
-ion-list.music-list h3 {
+ion-list.fav-music-list h3 {
     font-size: 16px;
     color: #fff;
     line-height: 20px;
 }
 
-ion-list.music-list ion-thumbnail {
+ion-list.fav-music-list ion-thumbnail {
     width: 75px;
     height: 75px;
     border-radius: 10px;
     overflow: hidden;
+    position: relative;
 }
 
-ion-list.music-list small {
+ion-list.fav-music-list ion-thumbnail span {
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+ion-list.fav-music-list small {
     font-size: 10px;
     color: #fff;
+    line-height: 1;
 }
