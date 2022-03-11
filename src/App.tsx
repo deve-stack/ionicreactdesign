@@ -20,6 +20,8 @@ import Tab2 from './pages/Tab2';
 import Tab3 from './pages/Tab3';
 import Tab4 from './pages/Tab4';
 import Dashboard from './pages/dashboard';
+import Audioplayer from './pages/audioplayer';
+
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -48,6 +50,9 @@ const App: React.FC = () => (
       <IonRouterOutlet>
         <Route path="/dashboard">
           <Dashboard />
+        </Route>
+        <Route path="/audioplayer">
+          <Audioplayer />
         </Route>
       </IonRouterOutlet>
       <IonTabs>

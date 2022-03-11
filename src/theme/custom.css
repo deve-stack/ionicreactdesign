@@ -92,3 +92,85 @@ ion-row.dash-btns ion-col {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.musiic-player {
+    width: calc(100% - 50px);
+    margin: 15px auto 0;
+}
+
+.musiic-detail ion-img {
+    box-shadow: 2px 0px 60px rgb(255 255 255 / 15%);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.musiic-detail h3 {
+    font-size: 24px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    line-height: 36px;
+}
+
+.musiic-detail h3 span {
+    font-size: 14px;
+    display: block;
+    line-height: 28px;
+    color: #919191;
+}
+
+.player-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.player-action span ion-img {
+    max-width: 36px;
+}
+
+ion-img.play {
+    max-width: 48px!important;
+}
+
+ion-progress-bar {
+    --background: rgba(var(--ion-color-primary-rgb, 56, 128, 255), 0.3);
+    --progress-background: linear-gradient(to right, #5410a0, #7a4fcd);
+    --buffer-background: #323360;
+    height: 8px;
+    border-radius: 5px;
+    margin-bottom: 34px;
+}
+
+.player-detail {
+    margin-top: 25px;
+}
+
+ion-title.a-player {
+    font-size: 16px;
+}
+
+ion-title.a-player span {
+    font-size: 12px;
+    display: block;
+    font-weight: 300;
+}
+
+
+.m-player ion-img {
+    max-width: 24px;
+}
+
+.m-player {
+    padding: 0 15px;
+    display: flex;
+    --padding-start: 0;
+    --padding-end: 0;
+}
+
+.m-player ion-button {
+    --padding-start: 0;
+    --padding-end: 0;
+    --background: transparent;
+}
